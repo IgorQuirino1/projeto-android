@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'idroid';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
 }
 
 main {
@@ -20,7 +21,7 @@ p {
 }
 
 h2.titulo, #t1{
-    font-family: 'idroid';
+    font-family:'idroid', arial;
     color: #5010c7c5;
 }
 h2.titulo{
