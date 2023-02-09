@@ -34,12 +34,20 @@ header {
 header > h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 30px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
-    
-    }
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.297);
+}
 header > p {
     padding: 10px;
-    font-size: 20px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.297);
 }
 .centro {
     text-align: center;
