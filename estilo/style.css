@@ -34,7 +34,7 @@ header {
 header > h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 30px;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
     
     }
 header > p {
