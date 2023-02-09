@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px #26095c48;
+}
+p {
+    line-height: 2em;
+}
+
+h2.titulo, #t1{
+    font-family: 'idroid';
+    color: #5010c7c5;
+}
+h2.titulo{
+    background-image: linear-gradient(to right, #360c8685,  #5010c749, rgba(255, 255, 255, 0.819));
+}
+ 
+header {
+    padding: 10px;
+    background-image: linear-gradient(to top, #0F0326, #2C096E, #4D0FBF);
+    color: rgba(255, 255, 255, 0.741);
+    box-shadow: 0px 3px 8px #26095c4a;
+    height: 200px;
+}
+
+header > h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    text-shadow: 2px 2px 3px black;
+    
+    }
+header > p {
+    padding: 10px;
+    font-size: 20px;
+}
+.centro {
+    text-align: center;
+}
+nav {
+    margin-top: 0px;
+    padding: 10px 20px 0px 0px;
+}
+nav > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.744);
+    padding: 5px;
+    border-radius: 5px;
+    background-color:transparent;
+    font-size: 20px;
+
+}
+nav > a:hover{
+    background-color: #476C9B;
+    color: #0e1827;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    background-color:#5010c749 ;
+}
+a:hover {
+    text-decoration:underline;
+}
+body{
+    background-color:#ae84fc1b;
+    margin: 0px;
+}
+main {
+    background-color: aliceblue;
+    max-width: 900px;
+    min-width: 280px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+section {
+    padding: 10px;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+article {
+    background-color: #362f73; 
+}
+#box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px 20px 10px 20px;
+    background-color: #476b9b70;
+    box-shadow: 0px 0px 10px #26095c5e;
+
+}
+#t2 {
+    border-radius: 10px 10px 0px 0px;
+    background-color:#350b83a1;
+    margin: -10px -10px 0px -10px;
+    color: white;
+}
+
+ul {
+    padding: 30px;
+    display: inline-block;
+    margin: 0px 200px 0px 10px;
+}
+
+li {
+    text-decoration: none;
+}
+
+#final {
+    margin:10px 40px 10px 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: #362f73;
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+ }
